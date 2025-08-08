@@ -23,12 +23,15 @@ export default function Navbar() {
                 <div className="container max-w-5xl">
                     <div className="border border-white/15 rounded-[27px] lg:rounded-full bg-neutral-950/70 backdrop-blur">
                         <figure className="grid grid-cols-2 lg:grid-cols-3  py-2 lg:px-2 px-4  items-center ">
-                            <div>
+                            <div className="flex gap-1 items-center">
                                 <Image
                                     src={logoImage}
-                                    alt="layer logo"
-                                    className="h-9 w-auto md:h-auto"
+                                    width={50}
+                                    height={50}
+                                    alt="simulsol logo"
+                                    className="h-9 w-auto md:h-auto brightness-100"
                                 />
+                                SIMULSOL
                             </div>
                             <div className="hidden lg:flex justify-center items-center ">
                                 <nav className="flex gap-6 font-medium ">

@@ -55,7 +55,7 @@ export default function Introduction() {
                                 >{`${word} `}</span>
                             ))}
                         </span>
-                        <span className="text-lime-400 block">
+                        <span className="text-blue-400 block">
                             That&apos;s why we built Layers.
                         </span>
                     </div>
