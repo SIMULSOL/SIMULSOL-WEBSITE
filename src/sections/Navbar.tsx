@@ -1,6 +1,6 @@
 "use client";
 
-import logoImage from "@/assets/images/logo.svg";
+import logoImage from "@/assets/images/simusol_bg_transparent.png";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Button from "@/components/Button";
